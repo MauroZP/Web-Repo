@@ -1,0 +1,10 @@
+.two {
+  flex: 1;
+  padding-top: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .two {
+    flex: 1;
+    padding-top: 3%;
+  }
+}

@@ -1,0 +1,13 @@
+.one {
+  flex: 0 0 65%;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 80px;
+    width: 119px;
+  }
+}

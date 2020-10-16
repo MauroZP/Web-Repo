@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Text.css";
 
 export default function Text() {
   return (
