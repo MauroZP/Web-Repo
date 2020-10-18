@@ -14,7 +14,7 @@ function App() {
         <div class="container">
           <Text />
           <Logo />
-        </div>
+        </div> 
       </header>
     </div>
   );
