@@ -1,7 +1,14 @@
 .two {
-  flex: 1;
-  padding-top: 3%;
+  /*flex: 1;
+  padding-top: 3%;*/
+  position: absolute;
 }
+
+.textFront {
+  text-shadow: 5px 5px 15px #000000;
+}
+
+/*TODO make it to phone size*/
 @media only screen and (max-width: 600px) {
   .two {
     flex: 1;

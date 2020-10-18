@@ -1,16 +1,13 @@
 import React from "react";
-//import logo from "../logo.svg";
-import lizzard from "../lizard.gif";
 import "../styles/Logo.css";
+import videoBG from "../videoCapy.mp4";
 
 export default function Logo() {
   return (
-    <img
-      class="one"
-      src={lizzard}
-      className="App-logo"
-      alt="logo"
-      style={{ alignSelf: "flex-right" }}
-    />
+    <div>    
+      <video class="one" autoPlay loop muted>
+        <source src={videoBG} type="video/mp4"></source>
+      </video>
+    </div>
   );
 }
