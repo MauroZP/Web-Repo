@@ -1,19 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
   background: rgb(4, 162, 164);
   background: linear-gradient(
     0deg,
     rgba(4, 162, 164, 1) 0%,
     rgba(7, 190, 80, 1) 100%
   );
+}
+
+.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,12 +24,20 @@
   text-shadow: 2px 2px 15px #000000;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .container {
   width: 500px;
   height: 500px;
   position: relative;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

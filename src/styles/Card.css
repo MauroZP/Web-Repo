@@ -1,0 +1,79 @@
+.ContainerCard {
+  position: relative;
+}
+
+.ContainerCard .Card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #9a275a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/*
+.ContainerCard .Card:after {
+  content: "Sample";
+  position: absolute;
+  top: 30%;
+  left: -15%;
+  font-size: 8em;
+  font-weight: 600;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.04);
+  transform: rotate(50deg);
+}
+*/
+
+.ContainerCard .Card .ImgCard {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.ContainerCard .Card:hover .ImgCard {
+  top: 0%;
+  transform: translateY(0%);
+}
+
+.ContainerCard .Card .ImgCard img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 270px;
+}
+
+.ContainerCard .Card .ContentCard {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ContainerCard .Card:hover .ContentCard {
+  height: 210px;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.ContainerCard .Card .ContentCard p {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.ContainerCard .Card .ContentCard p:hover {
+  /*background: #9bdc28;*/
+}
