@@ -7,23 +7,23 @@ import Card from "./components/Card";
 function App() {
   return (
     <div className="App">
+    <ContactUs />
       <header className="App-header">
-      <ContactUs />
         <div class="container">
           <Text />
         </div> 
       </header>
-      <div class="row">
-        <div class="column">
+      <div class="Row">
+        <div class="ColumnLeft">
           <Card/>
         </div>
-        <div class="column">
+        <div class="ColumnLeft">
           <Card/>
         </div>
-        <div class="column">
+        <div class="ColumnRight">
           <Card/>
         </div>
-        <div class="column">
+        <div class="ColumnRight">
           <Card/>
         </div>
       </div>

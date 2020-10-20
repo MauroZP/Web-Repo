@@ -11,7 +11,7 @@
   overflow: hidden;
 }
 
-/*
+/*  Text behind
 .ContainerCard .Card:after {
   content: "Sample";
   position: absolute;

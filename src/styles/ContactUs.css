@@ -1,23 +1,20 @@
 .contact-us {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  padding: 25px 45px;
-  border: 1px solid red;
+  background: transparent;
+  transition: background-color 0.5s ease-out;
 }
 
-.contact-us-text {
-  color: aliceblue;
+.contact-us.active {
+  background: white;
+  transition: background-color 0.5s ease-out;
+}
+
+.TextContanct {
+  font-size: 25px;
   text-shadow: 2px 2px 15px #000000;
   color: #e3e3e3;
 }
 
-.contact-us-text:link,
-.contact-us-text:visited {
-  text-decoration: none;
-}
-
-.contact-us-text:hover,
-.contact-us-text:active {
-  text-decoration: none;
+.TextContanct.active {
+  text-shadow: 2px 2px 15px #e3e3e3;
+  color: #000000;
 }
