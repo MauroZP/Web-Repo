@@ -2,17 +2,24 @@ import React from "react";
 import "./App.css";
 import Text from "./components/Text";
 import ContactUs from "./components/ContactUs";
+import Cards from "./components/CardsItem";
 import Card from "./components/Card";
 
 function App() {
   return (
     <div className="App">
-    <ContactUs />
+      <ContactUs />
       <header className="App-header">
-        <div class="container">
+        <div class="head">
           <Text />
         </div> 
       </header>
+      <Cards />
+    </div>
+  );
+}
+
+/*
       <div class="Row">
         <div class="ColumnLeft">
           <Card/>
@@ -27,8 +34,6 @@ function App() {
           <Card/>
         </div>
       </div>
-    </div>
-  );
-}
+      */
 
 export default App;
