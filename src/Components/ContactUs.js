@@ -19,6 +19,24 @@ export default function ContactUs() {
 
   return (
     <ReactBootStrap.Navbar className={navbar ? 'contact-us active' : 'contact-us'} variant="dark" sticky="top">
+    <img
+      alt=""
+      src={logoSample2}
+      width="100"
+      height="40"
+      className="d-inline-block align-top"
+    />{' '}
+  <ReactBootStrap.Nav className="ml-auto" >
+    <a 
+      className={navbar ? 'TextContanct active' : 'TextContanct'} href="#ContactUs" target="_blank">
+      Contact Us
+    </a> 
+  </ReactBootStrap.Nav>
+</ReactBootStrap.Navbar>
+  );
+}
+
+/*    <ReactBootStrap.Navbar className={navbar ? 'contact-us active' : 'contact-us'} variant="dark" sticky="top">
         <img
           alt=""
           src={logoSample2}
@@ -30,8 +48,6 @@ export default function ContactUs() {
         <a 
           className={navbar ? 'TextContanct active' : 'TextContanct'} href="#ContactUs" target="_blank">
           Contact Us
-        </a>
+        </a> 
       </ReactBootStrap.Nav>
-    </ReactBootStrap.Navbar>
-  );
-}
+    </ReactBootStrap.Navbar>*/

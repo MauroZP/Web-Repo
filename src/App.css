@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb:active {
   text-align: center;
 }
 
-.App-header {
+.header {
   min-height: 100vh;
   display: flex;
   align-items: center;

@@ -8,12 +8,14 @@ import Card from "./components/Card";
 function App() {
   return (
     <div className="App">
-      <ContactUs />
       <header className="App-header">
+        <ContactUs />
+      </header>
+      <div class="header">
         <div class="head">
           <Text />
-        </div> 
-      </header>
+        </div>
+      </div>
       <Cards />
     </div>
   );
@@ -33,7 +35,6 @@ function App() {
         <div class="ColumnRight">
           <Card/>
         </div>
-      </div>
       */
 
 export default App;

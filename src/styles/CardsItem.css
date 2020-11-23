@@ -90,3 +90,7 @@
 .Container .Card:nth-child(1) .Content a {
   background: #ffaf00;
 }
+.Container .Card:nth-child(2) .Item,
+.Container .Card:nth-child(2) .Content a {
+  background: #ffaf00;
+}
